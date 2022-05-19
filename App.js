@@ -21,6 +21,7 @@ import MusicScreen from "./screens/MusicScreen";
 const fetchFonts = () => {
   return Font.loadAsync({
     "DM-serif-regular": require("./assets/fonts/DMSerifDisplay-Regular.ttf"),
+    "DeathNote": require("./assets/fonts/DEATHNOTEFont.ttf"),
   });
 };
 
